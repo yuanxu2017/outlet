@@ -1,23 +1,22 @@
 {
-  "name": "fx-hs100-api",
-  "version": "0.3.0",
-  "description": "TPLink HS100/HS110 WiFi Smart Plug API",
+  "name": "outlet",
+  "version": "1.0.0",
+  "description": "outlet API",
   "author": {
     "name": "Patrick Seal"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/czjs2/hs100-api.git"
+    "url": "https://github.com/yuanxu2017/outlet.git"
   },
   "bugs": {
     "url": "https://github.com/czjs2/hs100-api/issues",
-    "email": "czjs2@qq.com"
+    "email": "21334878@qq.com"
   },
   "keywords": [
     "tplink",
-    "hs100",
-    "hs110",
+    "outlet",
     "home",
     "smartplug",
     "api"
@@ -37,32 +36,5 @@
     "preversion": "npm test",
     "postversion": "git push && git push --tags",
     "test": "semistandard &&  ./node_modules/.bin/mocha"
-  },
-  "gitHead": "7ce071d4f7f5dfafaf95d143dcfe791d4ef8ddc4",
-  "homepage": "https://github.com/czjs2/hs100-api#readme",
-  "_id": "fx-hs100-api@0.3.0",
-  "_shasum": "f629836c8b1bc56d7457e461da1bd407f49b1379",
-  "_from": "fx-hs100-api@>=0.3.0 <0.4.0",
-  "_npmVersion": "4.0.1",
-  "_nodeVersion": "6.9.1",
-  "_npmUser": {
-    "name": "czjs2",
-    "email": "czjs2@qq.com"
-  },
-  "dist": {
-    "shasum": "f629836c8b1bc56d7457e461da1bd407f49b1379",
-    "tarball": "https://registry.npmjs.org/fx-hs100-api/-/fx-hs100-api-0.3.0.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "czjs2",
-      "email": "czjs2@qq.com"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/fx-hs100-api-0.3.0.tgz_1481686097968_0.3046800778247416"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/fx-hs100-api/-/fx-hs100-api-0.3.0.tgz"
+  }
 }
